@@ -71,6 +71,10 @@ ul li a:hover{
     
 }
 
+#vege-list .row{
+    margin-bottom: 50px;
+}
+
 .veges{
     display: inline;
 }
