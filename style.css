@@ -1,143 +1,75 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
-header{
-    background-image: url('./images/vegetable1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-ul{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: flex-end;
-    background-color: transparent;
-    
-    
-}
-
-ul li{
-    padding: 10px 20px;
-}
-
-ul li a{
-    color: white;
-    font-size: larger;
-    padding: 5px 8px;
-    border: 1px solid white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: 0.4s ease;
-}
-
-ul li a:hover{
-    border-radius: 20px;
-    color: white;
-    text-shadow: 3px 3px 7px black;
-    
+.navbar{
+    background-color: rgb(171, 216, 140);
+    box-shadow: 5px 5px 10px black;
     
 }
 
 .logo{
-    flex: 1;
-}
-
-.welcome{
-    padding: 150px 100px;
-    text-align: center;
-    color: white;
-    font-weight: 300;
-}
-
-.welcome h1{
-    padding: 20px 50px 10px;
-    font-size: 40px;
-    font-family: cursive;
-    text-shadow: 5px 5px 5px rgb(0, 0, 0);
-}
-
-.welcome h2{
-    text-shadow: 5px 5px 5px rgb(0, 0, 0);
-}
-
-
-
-#vege-list{
-    padding: 100px 100px;
-    
-}
-
-#vege-list .row{
-    margin-bottom: 50px;
-}
-
-.veges{
-    display: inline;
-}
-
-.col{
-    text-align: center;
-}
-
-.btn{
-    margin: 5px;
-}
-
-.vege-img{
-    width: 15rem;
-    height: 15rem;
-    transition: 0.3s ease;
-}
-
-.vege-img:hover{
-    box-shadow: 2px 2px 10px black;
-    transform: scale(1.07);
-
-}
-
-footer{
-    text-align: center;
-}
-
-#deals{
-    text-align: center;
-    color: white;
-    background-color: rgb(108, 224, 108);
-    padding: 70px 100px;
-}
-
-#deals h1{
-    margin-bottom: 50px;
-    font-family: cursive;
-}
-
-img{
-    width: 500px;
-    height: 500px;
-}
-
-
-#reviews{
-    padding: 100px 100px;
-    text-align: center;
-}
-
-#reviews h2{
-   margin-bottom: 100px;
-   font-family: cursive;
-}
-
-.row{
-    justify-content: space-around;
-}
-
-footer{
-    padding: 50px 50px;
+    padding: 10px 5px;
+    font-family: 'Poppins';
     font-size: 20px;
-    background-color: rgb(108, 224, 108);
+}
+
+.link{
+    padding: 10px 15px;
+    margin: 0 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.4s ease;
+}
+
+.link:hover{
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+
+.header{
+    padding: 200px 100px;
+    background-image: url("images/banner-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
+    text-align: center;
+}
+
+.header h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px black;
+    font-size: 50px;
+}
+
+.header p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px black;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 450px){
+    .header{
+        border:  1px solid black;
+        padding: 200px 50px;
+        background-image: url("images/banner-img.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        text-align: center;
+    }
+    
+    .header h1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 5px black;
+        font-size: 45px;
+    }
+    
+    .header p{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 5px black;
+        font-size: 20px;
+    }
+    
 }
