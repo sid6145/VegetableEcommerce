@@ -49,22 +49,46 @@
 }
 
 .offers{
-    padding: 100px ;
+    padding: 50px 0 ;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.offers-heading{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    margin-top: 30px;
 }
 
 .offers .card{
-    margin: 10px;
+    margin:0 10px;
+    box-shadow: 2px 2px 5px black;
 }
+
 
 .card_img{
     width: 300px;
     height: 200px;
 }
 
+.card-text{
+    font-size: 25px;
+}
+
 @media screen and (max-width: 450px){
+    .link{
+        padding: 10px 15px;
+        margin: 0 30px;
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        transition: 0.4s ease;
+    }
+    
+
+
     .header{
         border:  1px solid black;
         padding: 200px 50px;
@@ -88,6 +112,9 @@
         font-size: 20px;
     }
 
+    .offers .card{
+        margin:8px 10px;
+    }
  
     
 }
